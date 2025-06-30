@@ -9,6 +9,6 @@ world = "world"
 cakes = 10
 theft = 2
 
-remaining = cakes-THEFT
+remaining = cakes - theft
 
-print(f"{hello}, {world}. There were {10,cakes} cakes, but Lex Luthor stole {theft}. Now there's {remaining}. And that's sad.")
+print(f"{hello}, {world}. There were {10} cakes, but Lex Luthor stole {theft}. Now there's {remaining}. And that's sad.")
